@@ -1,6 +1,7 @@
 # Camera Mobile Website
 
-![Camera Mobile Website](screenshot.png) <!-- Add a screenshot or image of your application -->
+
+![Screenshot 2025-02-21 at 12 39 42 PM](https://github.com/user-attachments/assets/e6fd2f98-39f8-4a8b-97b6-0253c051233c) <!-- Add a screenshot or image of your application -->
 
 ## Overview
 The **Camera Mobile Website** is a web application that allows users to access their device's camera to take photos. It is designed to be simple and user-friendly, providing both front and back camera functionalities.

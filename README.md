@@ -1,51 +1,36 @@
 # Camera Mobile Website
 
+![Camera Mobile Website](screenshot.png) <!-- Add a screenshot or image of your application -->
+
 ## Overview
-The Camera Mobile Website is a web application that allows users to take photos using their device's camera. It is built with HTML, CSS, and JavaScript.
+The **Camera Mobile Website** is a web application that allows users to access their device's camera to take photos. It is designed to be simple and user-friendly, providing both front and back camera functionalities.
 
 ## Features
-- Access connected camera (front and back)
+- Access to front and back cameras
 - Live video streaming
 - Capture and display photos
+- Responsive design for mobile devices
+
+## Demo
+You can view a live demo of the application at: [Camera Mobile Website]
 
 ## Getting Started
 
 ### Prerequisites
-- A web browser on a mobile device or desktop.
+- A modern web browser (Chrome, Firefox, Safari, etc.)
 
 ### Installation
-1. Create a folder (e.g., `camera-web-app`).
-2. Create the following files:
-   - `index.html`
-   - `style.css`
-   - `app.js`
-3. Upload these files to a web server.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/camera-web-app.git
+## Usage
+   1. Open the application in your web browser.
+   2. Choose between the front and back camera using the provided button.
+   3. Click the Take Photo button to capture an image.
+   4. The captured image will be displayed below the camera view.
+      
+## Contribution
+Contributions are welcome! Please feel free to fork the repository and submit pull requests for improvements or bug fixes.
 
-### Example Code
-#### `index.html`
-```html
-<html lang="en">
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Camera Mobile Website</title>
-    <link rel="stylesheet" href="style.css"> 
-</head>
-<body>
-    <main id="camera">
-        <canvas id="camera-view"></canvas>
-        <video id="camera-device" autoplay playsinline></video>
-        <img alt="" id="photo-display">
-        <button id="front-camera-button">Front Camera</button>
-        <button id="take-photo-button">Take Photo</button>
-    </main>
-    <script src="app.js"></script> 
-</body>
-</html>
-Usage
-Access the web application at:
-
-https://<GitHubUsername>.github.io/camera-web-app
-Contributions
-Feel free to fork the repository and submit pull requests for improvements.
+## License
 

@@ -32,6 +32,3 @@ You can view a live demo of the application at: [Camera Mobile Website]
       
 ## Contribution
 Contributions are welcome! Please feel free to fork the repository and submit pull requests for improvements or bug fixes.
-
-## License
-
